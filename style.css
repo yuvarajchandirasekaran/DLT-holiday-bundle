@@ -1,0 +1,964 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.background-img-props {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-props {
+  padding: 15px 0;
+  max-width: 222px;
+  width: 100%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #000000;
+  font: bold 18px/24px "Montserrat", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (max-width: 1204px) {
+  .btn-props {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 154px;
+    padding: 11px 0;
+  }
+}
+.dlt-holiday-landing-page {
+  background-image: url(images/banner/banner-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.dlt-holiday-landing-page .main-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1366px) {
+  .dlt-holiday-landing-page .main-container {
+    padding: 0 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container {
+    padding: 0;
+    max-width: 940px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .dlt-holiday-landing-page .main-container {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container {
+    padding: 0;
+    max-width: 727px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .heading {
+    padding: 35px;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .heading .dlt-image {
+  max-width: 120px;
+  height: auto;
+  margin-right: 13px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .heading .dlt-image {
+    display: none;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .heading .banner-heading-txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .heading .banner-heading-txt {
+    font-size: 42px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .heading .banner-heading-txt {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .heading .banner-heading-txt {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer {
+  background-image: url(images/banner/layer1-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px 0;
+}
+@media screen and (max-width: 1280px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer {
+    padding: 16px 25px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer {
+    flex-wrap: wrap;
+    height: auto;
+    background-size: cover;
+    justify-content: center;
+    padding: 15px 16px 40px;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer .free-prod-image {
+  width: 589px;
+  height: auto;
+}
+@media screen and (max-width: 1280px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .free-prod-image {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .free-prod-image {
+    width: 440px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .free-prod-image {
+    width: 340px;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .free-txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 50px;
+  font-weight: normal;
+  color: #F83530;
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .free-txt {
+    font-size: 50px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .free-txt {
+    font-size: 42px;
+    line-height: 30px;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .product-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: normal;
+  color: #FFFFFF;
+  visibility: hidden;
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .product-name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .product-name {
+    font-size: 25px;
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .product-name {
+    visibility: hidden;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 7px 0 32px;
+  max-width: 526px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    max-width: 414px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content p {
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 335px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content p {
+    max-width: 295px;
+    white-space: wrap;
+  }
+}
+.dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .shop-btn {
+  padding: 15px 0;
+  max-width: 222px;
+  width: 100%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #000000;
+  font: bold 18px/24px "Montserrat", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1795C4;
+  border: none;
+  display: inline-block;
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .banner-sec .banner-layer .text-content .shop-btn {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 154px;
+    padding: 11px 0;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 0 0;
+  max-width: 1316px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section {
+    padding: 0;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .bundle-section {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container {
+  max-width: 645px;
+  width: 100%;
+  padding-top: 51px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(images/section1/spyderko-bg-layer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container {
+    padding-bottom: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container {
+    padding-top: 25px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container .brand-logo {
+  max-width: 280px;
+  margin: 0 auto;
+  max-height: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .brand-logo {
+    max-width: 200px;
+    max-height: 34px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .brand-logo {
+    max-width: 154px;
+    max-height: 26px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container .card-desc {
+  font-size: 25px;
+  line-height: 32px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .card-desc {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 360px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .card-desc {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 280px;
+    margin-top: 12px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container .box-image {
+  max-width: 345px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .box-image {
+    max-width: 247px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .box-image {
+    max-width: 190px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container .get-btn {
+  margin-top: 13px;
+  padding: 15px 0;
+  max-width: 222px;
+  width: 100%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #000000;
+  font: bold 18px/24px "Montserrat", sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+@media screen and (max-width: 1204px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container .get-btn {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 154px;
+    padding: 11px 0;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 {
+  padding: 30px 0;
+  background-image: url(images/section1/zt-bg-layer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 26px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 {
+    padding-bottom: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 {
+    margin: 0;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .brand-logo {
+  max-width: 233px;
+  max-height: 84px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .brand-logo {
+    max-width: 166px;
+    max-height: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .brand-logo {
+    max-width: 128px;
+    max-height: 46px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .card-desc {
+  margin: 8px auto;
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .box-image {
+  max-width: 555px;
+  max-height: 328px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .box-image {
+    max-width: 396px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .box-image {
+    max-width: 306px;
+  }
+}
+.dlt-holiday-landing-page .main-container .bundle-section .card-container.item-2 .get-btn {
+  margin-top: 20px;
+}
+.dlt-holiday-landing-page .main-container .carousel-products {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .carousel-products {
+    margin: 0 10px;
+  }
+}
+.dlt-holiday-landing-page .main-container .carousel-products .product {
+  margin: 0 15px;
+  max-width: 300px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product {
+    max-width: 207px;
+    margin: 0 10px;
+  }
+}
+.dlt-holiday-landing-page .main-container .carousel-products .product .prod-name {
+  margin: 20px 0 9px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product .prod-name {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 13px 0 4px;
+  }
+}
+.dlt-holiday-landing-page .main-container .carousel-products .product .shop-btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 9px;
+  font-weight: bold;
+  color: #1795C4;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product .shop-btn {
+    font-size: 12px;
+    line-height: 9px;
+  }
+}
+.dlt-holiday-landing-page .main-container .carousel-products .product .shop-btn .material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product.one {
+    display: none;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product.two {
+    display: none;
+  }
+}
+@media screen and (max-width: 475px) {
+  .dlt-holiday-landing-page .main-container .carousel-products .product.three {
+    display: none;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section {
+  max-width: 1360px;
+  margin: 54px auto;
+  padding: 31px 13px 0;
+  background-image: url(images/section2/featured-products-bg.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section {
+    margin: 38px auto 21px;
+    padding: 23px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section {
+    margin: 30px 0;
+    padding: 23px 32px 0;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 31px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .heading {
+    font-size: 26px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn,
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 28%;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn,
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn {
+    top: 24%;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn span,
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn span {
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ACACAC;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 3px 6px #acacac;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn span,
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn span {
+    height: 29px;
+    width: 29px;
+    font-size: 17px;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn {
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn {
+    left: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .prev-btn {
+    left: 15px;
+  }
+}
+.dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn {
+  right: 0;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn {
+    right: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .dlt-holiday-landing-page .main-container .featured-prod-section .carousel-container .next-btn {
+    right: 15px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle {
+  background-image: url(images/section3/mystery-bundles-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle {
+    padding-bottom: 42px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading {
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .heading .primary-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1366px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading .primary-heading {
+    font-size: 32px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading .primary-heading {
+    font-size: 26px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading .primary-heading {
+    margin-bottom: 10px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .heading .secondary-heading {
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1366px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading .secondary-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .heading .secondary-heading {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products {
+    margin: 0 10px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product {
+  margin: 0 15px;
+  max-width: 300px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product {
+    max-width: 207px;
+    margin: 0 10px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .prod-name {
+  margin: 20px 0 9px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .prod-name {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 13px 0 4px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .shop-btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 9px;
+  font-weight: bold;
+  color: #1795C4;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .shop-btn {
+    font-size: 12px;
+    line-height: 9px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .shop-btn .material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product.one {
+    display: none;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product.two {
+    display: none;
+  }
+}
+@media screen and (max-width: 475px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product.three {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products {
+    max-width: 580px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 37px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products {
+    justify-content: center;
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product {
+    max-width: 260px;
+  }
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .prod-name {
+  color: #FFFFFF;
+  margin: 0;
+}
+.dlt-holiday-landing-page .main-container .mystery-bundle .bundle-products .product .shop-btn {
+  color: #ABE7FF;
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  padding-bottom: 43px;
+  background-image: url(images/section4/yt-section-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec {
+    margin-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec {
+    padding-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec {
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 42px;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .video-cover-img {
+  width: 611px;
+  margin-right: 60px;
+  margin-left: 50px;
+  background-image: url(images/section4/video-bg.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 28px 0 28px 28px;
+  height: 442px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .video-cover-img {
+    max-width: 422px;
+    margin-right: 41px;
+    margin-left: 33px;
+    height: 306px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .video-cover-img {
+    max-width: 352px;
+    margin-right: 24px;
+    margin-left: 15px;
+    padding: 20px 0 20px 20px;
+    height: 255px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .video-cover-img {
+    max-width: 352px;
+    height: 228 px;
+    margin: 0;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content {
+  max-width: 480px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content {
+    max-width: 372px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content {
+    max-width: 310px;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div {
+  height: 180px;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div {
+    padding-top: 40px;
+    height: 145px;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div .heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: normal;
+  color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div .heading {
+    font-size: 34px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div .heading {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  color: #000000;
+  max-height: 65px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div h1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-height: 53px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content div h1 {
+    font-size: 40px;
+    line-height: 38px;
+    max-height: 41px;
+  }
+}
+.dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content .desc {
+  margin-top: 10px;
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+@media screen and (max-width: 1024px) {
+  .dlt-holiday-landing-page .main-container .youtube-promot-sec .text-content .desc {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
